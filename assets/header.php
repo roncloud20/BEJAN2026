@@ -15,5 +15,6 @@
             <a href="loanCalculator.php">Loan Calculator</a>
             <a href="compoundint.php">Compound Interest</a>
             <a href="bmi-calculator.php">BMI Calculator</a>
+            <a href="depreciation.php">Depreciation calculator</a>
         </nav>
     </header>
