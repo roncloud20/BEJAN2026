@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: aqua;
     display: flex;
@@ -5,3 +11,17 @@ header {
     align-items: center;
     flex-flow: row wrap;
 }
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+form > span {
+    color: red;
+    font-size: small;
+}
+
