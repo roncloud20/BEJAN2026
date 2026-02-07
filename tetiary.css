@@ -1,0 +1,56 @@
+body {
+    width: 97.8dvw;
+    height: 100dvh;
+}
+
+.title {
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 7px;
+}
+
+.input input, textarea {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 35px;
+    outline: 2px solid #aaa;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: 2px solid cyan;
+}
+
+input::placeholder,textarea::placeholder{
+    font-weight: bold;
+    height: 100%;
+}
+
+select {
+    border-radius: 5px;
+    width: 30%;
+    padding: 7px;
+    cursor: pointer;
+    outline: 1px solid #aaa;
+}
+
+option {
+    cursor: pointer;
+}
+
+input[type='submit'] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
