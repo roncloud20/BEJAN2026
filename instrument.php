@@ -1,9 +1,9 @@
 <?php
     $pagetitle = 'Instrumentalist Registration';
-   
+   require_once 'assets/header.php';
 ?>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="instrument.css">
 
 <h1>Instrumentalist Registration</h1>
 
