@@ -1,0 +1,123 @@
+body {
+  background-color: #0b0b0b;
+}
+
+.container {
+  display: flex;
+  height: 100vh
+}
+
+.left-section {
+  background: 
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("images/Image_fx.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 40px;
+}
+
+.left-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #d4af37;
+}
+
+.left-section p {
+  margin-top: 12px;
+  font-size: 20px;
+  max-width: 400px;
+  color: #ffffff;
+}
+
+
+/* Styling Right Section*/
+
+.right-section {
+  flex: 1;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Styling Form card */
+
+.form-card {
+  background-color: #ffffff;
+  width: 420px;
+  padding: 0px 32px 32px 32px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+/* HEADINGS */
+
+.form-card h2 {
+  font-size: 24px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.form-card p {
+  display: block;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+
+/* Now Styling Forms */
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #d4af37;
+}
+
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #d4af37;
+  color: #0b0b0b;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+/* Styling Error Block*/
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
