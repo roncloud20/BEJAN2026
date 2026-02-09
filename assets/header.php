@@ -11,10 +11,10 @@
         <h1>Logo</h1>
         <nav>
             <a href="index.php">Home</a>
-            <a href="simpleinterest.php">Simple Interest</a>
+            <!-- <a href="simpleinterest.php">Simple Interest</a>
             <a href="loanCalculator.php">Loan Calculator</a>
             <a href="compoundint.php">Compound Interest</a>
-            <a href="bmi-calculator.php">BMI Calculator</a>
-            <a href="depreciation.php">Depreciation calculator</a>
+            <a href="bmi-calculator.php">BMI Calculator</a> -->
+            <a href="register.php">Register</a>
         </nav>
     </header>

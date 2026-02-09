@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    margin: 20px auto;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(125, 32, 32);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+     box-shadow: 0 0 10px solid black
+}
+
+label {
+   display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+} */
+
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+     cursor: pointer; 
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+.error {
+    background: #ae7171;
+    color: red;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.success {
+    background: #6bc96b;
+    color: green;
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.teachers {
+    background: #e6f2ff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.info-section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
