@@ -1,0 +1,16 @@
+CREATE TABLE users(
+	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(50) NOT NULL,
+    email VARCHAR(225) NOT NULL UNIQUE KEY, 
+    phone VARCHAR(15) NOT NULL UNIQUE KEY,
+    age TINYINT NOT NULL,
+    height VARCHAR(5) NOT NULL,
+    weight VARCHAR(5) NOT NULL,
+    goal ENUM('--Select goal--','Lose Weight','Gain Muscle','Stay fit') DEFAULT('--Select goal--'),
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    verified_at DATETIME NULL,
+    verification_code INT(6) NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)

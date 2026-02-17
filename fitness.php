@@ -214,14 +214,12 @@
               <label for="height">Height</label>
               <input type="text" placeholder="180cm" name="height" value="<?= $height ?>">
               <span class="error"><?= $heightError ?></span>
-
             </div>
 
             <div class="form-group">
               <label for="weight">Weight</label>
               <input type="text" placeholder="65kg" name="weight" value="<?= $weight ?>">
               <span class="error"><?= $weightError ?></span>
-
             </div>
           </div>
 
