@@ -4,12 +4,12 @@ body {
 
 .container {
   display: flex;
-  height: 100vh
+  height: 110vh;
 }
 
 .left-section {
-  background: 
-    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("images/Image_fx.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
@@ -40,6 +40,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+  height: auto;
 }
 
 /* Styling Form card */
@@ -82,7 +83,8 @@ body {
   margin-bottom: 16px;
 }
 
-input, select {
+input,
+select {
   width: 100%;
   padding: 12px;
   border: 1px solid #e5e7eb;
@@ -90,7 +92,8 @@ input, select {
   font-size: 14px;
 }
 
-input:focus, select:focus {
+input:focus,
+select:focus {
   outline: none;
   border-color: #d4af37;
 }

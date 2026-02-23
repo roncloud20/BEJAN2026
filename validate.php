@@ -1,5 +1,5 @@
 <?php
-echo $_SERVER['REQUEST_METHOD'];
+if($_SERVER['REQUEST_METHOD'] == "post"){
 echo "<br/>";
 $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
@@ -13,5 +13,5 @@ if(empty($num2)) {
 }
 $ans = $num1 + $num2;
 echo $ans;
-
+}
 ?>
